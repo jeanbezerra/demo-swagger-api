@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jeanbezerra</groupId>
-	<artifactId>calculadora-api</artifactId>
+	<artifactId>demo-swagger-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>calculadora-api</name>
-	<description>Projeto que realiza cálculos para servir como demonstração</description>
+	<name>demo-swagger-api</name>
+	<description>Demonstração</description>
 	<url />
 	<licenses>
 		<license />
