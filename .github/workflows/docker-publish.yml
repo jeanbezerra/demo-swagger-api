@@ -30,7 +30,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build da imagem Docker
-        run: docker build -t jeancbezerra/demo-swagger-api:latest .
+        run: docker build -t steelhand900/demo-swagger-api:latest .
 
       - name: Push da imagem para o Docker Hub
-        run: docker push jeancbezerra/demo-swagger-api:latest
+        run: docker push steelhand900/demo-swagger-api:latest
