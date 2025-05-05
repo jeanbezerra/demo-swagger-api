@@ -13,4 +13,4 @@ ENV SERVER_PORT=8080
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-XX:+UseContainerSupport", "-XX:MaxRAMPercentage=75.0", "-XX:InitialRAMPercentage=50.0", "-XX:MinRAMPercentage=25.0", "-XX:MaxCPUThreads=2", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-XX:+UseContainerSupport", "-XX:MaxRAMPercentage=75.0", "-XX:InitialRAMPercentage=50.0", "-XX:MinRAMPercentage=25.0", "-jar", "app.jar"]
