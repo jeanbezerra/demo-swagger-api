@@ -11,7 +11,6 @@ LABEL maintainer="jeancbezerra" \
 
 ENV SERVER_PORT=8080
 
-EXPOSE 443
 EXPOSE 8080
 EXPOSE 10000
 
